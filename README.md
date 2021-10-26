@@ -3,11 +3,12 @@
 Code to simulate the diffusion limited aggregation of particles under different conditions including sticking probabilities, different seeds and restrictions on the movement of the particles (NSEW or NSEW + NW NE SW SE). This was my final project for a module I took in my third year in university.
 
 A general algorithm is:
-*Place some starting particle (seed) in the centre of a lattice/grid.
-*Release another particle at a random point on the edge of the grid, or at a radius r from the seed.
-*Let the particle perform a random walk.
-*If the particle encounters the seed, it sticks. Otherwise, if it wanders outside a certain distance from the seed or takes too long to stick, it is removed.
-*Repeat steps 2-4 above to form an aggregate.
+Markup: 
+- Place some starting particle (seed) in the centre of a lattice/grid.
+- Release another particle at a random point on the edge of the grid, or at a radius r from the seed.
+- Let the particle perform a random walk.
+- If the particle encounters the seed, it sticks. Otherwise, if it wanders outside a certain distance from the seed or takes too long to stick, it is removed.
+- Repeat steps 2-4 above to form an aggregate.
 
 This results in aggregates with dendritic structures being formed.
 
