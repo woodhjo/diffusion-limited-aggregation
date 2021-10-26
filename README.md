@@ -9,7 +9,9 @@ A general algorithm is:
 - If the particle encounters the seed, it sticks. Otherwise, if it wanders outside a certain distance from the seed or takes too long to stick, it is removed.
 - Repeat steps 2-4 above to form an aggregate.
 
-This results in aggregates with dendritic structures being formed.
+This results in aggregates with dendritic structures being formed. For this code, particles are spawned at a spawning radius which is set to be certain distance away from the bounding radius of the entire aggregate. They are removed at twice the distance of this spawning radius.
+![Model](https://user-images.githubusercontent.com/92552830/138933310-6a8d0acb-d084-4462-9b89-25aa589b5c29.png)
+
 
 MainDLA.py
 ------------------
